@@ -88,6 +88,11 @@
                           "switch": "$.data.user.userAge",
                           "type": "jsonpath"}],
       "contentType": "application/json"
+    },
+    "navid" : {
+      "mockFile" : "navid.json",
+      "latency": 3000,
+      "verbs": ["post","get"]
     }
   }
 }
